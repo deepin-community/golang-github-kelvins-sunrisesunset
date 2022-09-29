@@ -1,0 +1,11 @@
+golang-github-kelvins-sunrisesunset (1.0-2) unstable; urgency=medium
+
+  * Source only upload for migration to testing.
+
+ -- Arun Kumar Pariyar <openarungeek@gmail.com>  Thu, 29 Oct 2020 18:43:33 +0545
+
+golang-github-kelvins-sunrisesunset (1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #971046)
+
+ -- Arun Kumar Pariyar <openarungeek@gmail.com>  Sun, 27 Sep 2020 00:02:39 +0545

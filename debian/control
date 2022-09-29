@@ -1,0 +1,26 @@
+Source: golang-github-kelvins-sunrisesunset
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Arun Kumar Pariyar <openarungeek@gmail.com>
+Section: devel
+Testsuite: autopkgtest-pkg-go
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-golang,
+               golang-any
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-kelvins-sunrisesunset
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-kelvins-sunrisesunset.git
+Homepage: https://github.com/kelvins/sunrisesunset
+Rules-Requires-Root: no
+XS-Go-Import-Path: github.com/kelvins/sunrisesunset
+
+Package: golang-github-kelvins-sunrisesunset-dev
+Architecture: all
+Depends: ${misc:Depends}
+Description: Go package that provides the sunrise and sunset equation. (library)
+ This package is used to calculate the apparent sunrise and sunset times based
+ on latitude, longitude, date and UTC offset. It was created based on the
+ Corrected Sunrise, Sunset, Noon Times in Seconds - and Solar Angles Matlab
+ function developed by Richard Droste, that was created based on the
+ spreadsheets available in the Earth System Research Laboratory website
+ from the National Oceanic & Atmospheric Administration (NOAA).
